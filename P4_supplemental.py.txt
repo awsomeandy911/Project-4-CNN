@@ -2,10 +2,10 @@ Answer Questions mentioned in the rubric in this file!
 Group 36: Andy Le & Victor Pham
 
 Section 1 Question: Please describe in 2-3 sentences your methodology for choosing the number of hidden layers, batch size, learning rates, and number of nodes. Please mention any reduction schemas utilized or any noteworthy trial and error experiments.
-Answer:
+Answer: We know that the of hidden layers, nodes, and batch size can affect our model's capacity, training speed, and memory usage. Choosing the right values requires balancing these factors so we ended upon choosing 3 hidden layers, batch size of 100, and a learning rate of 0.1 considering the complexity and size of our model.
 
 Section 2a Question: In 2-3 sentences please explain the purpose of Intersection over union operation.
-Answer:
+Answer: The purpose of Intersection over Union (IoU) is to evaluate the accuracy of object detection algorithms. It measures the overlap between the predicted bounding box and the ground truth bounding box of an object in an image. 
 
 Section 2b Question: In 2-3 sentences please explain the purpose of non-max suppression.
-Answer:
+Answer: The purpose of non-max suppression is to remove redundant detections of the same object. Non-max suppression is a post-proceesing step that works by comparing the confidence scores of overlapping bounding boxes and keeping only the one with the highest score, thus eliminating duplicate detections and improving the accuracy of the detection results.
